@@ -110,7 +110,7 @@ const UploadPage: React.FC = () => {
       const mockResult: DetectionResult = {
         id: Date.now().toString(),
         crop: "Corn",
-        disease: "corn_Common_Rust",
+        disease: "Common Rust",
         confidence: 0.97,
         remedy: "Use fungicide and resistant varieties.",
         identification: "Brown or rust-colored pustules appear on leaves.",
