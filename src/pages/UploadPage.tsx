@@ -111,7 +111,7 @@ const UploadPage: React.FC = () => {
         id: Date.now().toString(),
         crop: "Corn",
         disease: "Common Rust",
-        confidence: 0.97,
+        confidence: 87,
         remedy: "Use fungicide and resistant varieties.",
         identification: "Brown or rust-colored pustules appear on leaves.",
         preventiveMeasures: [
