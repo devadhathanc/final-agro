@@ -12,6 +12,10 @@ import {
   Zap,
   RefreshCw
 } from 'lucide-react';
+import corn_healthy from '../images/corn_healthy.jpg';
+import corn_early from '../images/rust_early.jpg';
+import corn_moderate from '../images/corn_rust2.jpg';
+import corn_severe from '../images/rust_severe.png';
 import { useLanguage } from '../contexts/LanguageContext';
 import { storage } from '../utils/storage';
 import { DetectionResult } from '../types';
@@ -116,10 +120,10 @@ const UploadPage: React.FC = () => {
           "Crop rotation with non-host plants"
         ],
         Ref_images: {
-          healthy: "/src/images/corn_healthy.jpg",
-          early: "/src/images/rust_early.jpg",
-          moderate: "/src/images/corn_rust2.jpg",
-          severe: "/src/images/rust_severe.png"
+          healthy: corn_healthy,
+          early: corn_early,
+          moderate: corn_moderate,
+          severe: corn_severe
         },
         timestamp: new Date().toISOString(),
         location: "Not specified",
