@@ -59,19 +59,19 @@ const AboutPage: React.FC = () => {
       name: 'Rakshith Raghaventhra',
       role: 'Agricultural Expert',
       image: RakshithImg,
-      github: "https://github.com/RakshithRaghav"
+      github: "https://github.com/rakshithraghaventhra77"
     },
     {
       name: 'Devadhathan Chandran',
       role: 'Software Engineer',
       image: DevadhathanImg,
-      github: "https://github.com/Devadhathan"
+      github: "https://github.com/devadhathanc"
     },
     {
       name: 'Dinesh Murugesan',
       role: 'Software Engineer',
       image: DineshImg,
-      github: "https://github.com/DineshMurugesan"
+      github: "https://github.com/Dinesh-M-0610"
     },
   ];
 
